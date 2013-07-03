@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Vagrant::PackageCache::VERSION
   spec.authors       = ["Andreas Böhrnsen"]
   spec.email         = ["andreas@boehrnsen.de"]
-  spec.description   = %q{Vagrant Linux Package Cache}
-  spec.summary       = %q{Caches the packages per box to make testing of provisioners faster}
+  spec.description   = %q{Vagrant Package Cache}
+  spec.summary       = %q{Caches Linux packages per box to make provisioning less painful. Currently only apt is supported.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
