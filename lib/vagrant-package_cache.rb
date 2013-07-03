@@ -16,5 +16,3 @@ module VagrantPlugins
     end
   end
 end
-
-# vim:set ts=2 et:
