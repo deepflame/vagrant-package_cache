@@ -13,12 +13,16 @@ end
 module VagrantPlugins
   module PackageCache
     class Plugin < Vagrant.plugin("2")
+
       name "PackageCache"
       description <<-DESC
         This plugin caches downloaded Linux packages in the host machine, thus making testing of provisionings with Chef, Puppet, etc. faster.
       DESC
 
 
+      action_hook :do_after_boot, :machine_action_up do |hook|
+        require_relative 'action/mount_cache_folder'
+        hook.before Vagrant::Action::Builtin::Provision,  VagrantPlugins::PackageCache::Action::MountCacheFolder
       end
 
     end
