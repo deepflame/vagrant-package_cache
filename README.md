@@ -13,7 +13,8 @@ Then run on the command line:
 
 ## Usage
 
-There is nothing to do. Just install it and the next time you proviso provision your vagrant box it will cache the apt packages of the guest machine.
+There is nothing to do. Just install it and the next time you provision your vagrant box it will cache the apt packages of the guest machine.  
+The run after that runs blazingly fast from the local cache (if you used a slow internet connection before).
 
 ## Todo
 
