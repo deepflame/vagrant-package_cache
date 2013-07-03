@@ -20,6 +20,12 @@ There is nothing to do. Just install it and the next time you proviso provision 
 - support for Yum
 - ...
 
+## Alternatives
+
+- [vagrant-cachier](https://github.com/fgrehm/vagrant-cachier)
+- [vagrant-apt_cache](https://github.com/avit/vagrant-apt_cache) 
+- [DIY gist](http://gist.github.com/juanje/3797297)
+
 ## Contributing
 
 1. Fork it
