@@ -1,24 +1,24 @@
-# Vagrant::PackageCache
+# Vagrant Package Cache
 
-TODO: Write a gem description
+This Vagrant 1.2+ plugin caches Linux packages on the host machine to make provisioning faster.
+No need to wait for packages to download that you already have in the cache.  
+Currently Apt (Ubuntu, Debian) is supported.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Make sure you have Vagrant 1.2+ installed.  
+Then run on the command line:
 
-    gem 'vagrant-package_cache'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install vagrant-package_cache
+    vagrant plugin install vagrant-package_cache
 
 ## Usage
 
-TODO: Write usage instructions here
+There is nothing to do. Just install it and the next time you proviso provision your vagrant box it will cache the apt packages of the guest machine.
+
+## Todo
+
+- support for Yum
+- ...
 
 ## Contributing
 
