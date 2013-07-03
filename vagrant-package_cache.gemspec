@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["andreas@boehrnsen.de"]
   spec.description   = %q{Vagrant Package Cache}
   spec.summary       = %q{Caches Linux packages per box to make provisioning less painful. Currently only apt is supported.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/deepflame/vagrant-package_cache"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
